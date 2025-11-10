@@ -2,14 +2,12 @@
 
 **AutoDocGen** is an intelligent tool built on **CodeT5** that automatically generates high-quality documentation, inline comments, and unit tests for your source code.  
 
----
 
 ## 🚀 Features  
 ✨ **Automatic Docstring Generation** — Instantly create detailed Python docstrings.  
 🧩 **Unit Test Creation** — Generate unit tests directly from your functions.  
 🧠 **Trainable & Extendable** — Fine-tune on your own dataset for domain-specific results.  
 
----
 
 ## 📂 Project Structure  
 
@@ -22,14 +20,12 @@
 | `data_examples/` | Example dataset and code samples for training/testing |
 | `tests/` | Unit test folder to validate model outputs |
 
----
 
 ## 🧠 Model Overview  
 
 AutoDocGen fine-tunes **CodeT5-small** from [Hugging Face Transformers](https://huggingface.co/) on a curated dataset of Python code and natural language descriptions.  
 It learns to understand code semantics and produce accurate, readable documentation and test cases.
 
----
 
 ## ⚙️ Installation  
 
@@ -42,7 +38,6 @@ cd AutoDocGen
 pip install -r requirements.txt
 ```
 
----
 
 ## 🧪 Usage  
 
@@ -55,5 +50,3 @@ python inference.py --input your_code.py
 ```bash
 python train_codet5_docgen.py --config configs/train_config.json
 ```
-
----
