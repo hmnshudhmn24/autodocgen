@@ -1,0 +1,2 @@
+{"code": "def add(a, b): return a + b", "doc": "Add two numbers."}
+{"code": "def square(x): return x*x", "doc": "Return square of x."}
